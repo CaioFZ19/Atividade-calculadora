@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <main class="calculadora">
+
+            <h1>Calculadora top das galáxias</h1>
+
+            <h2>Selecione a operação e os números desejados</h2>
+            <h2>e aperte o botão para calcular:</h2>
+
+            <!-- Tela do resultado -->
+            <section class="tela">
+                <p id="resultado">0</p>
+            </section>
+
+            <!-- Números -->
+            <div class="numeros">
+
+                <label for="num1">Primeiro número:</label>
+                <input type="number" id="num1" placeholder="Digite um número">
+
+                <label for="num2">Segundo número:</label>
+                <input type="number" id="num2" placeholder="Digite um número">
+
+            </div>
+
+            <!-- Operação -->
+            <div class="operacao">
+
+                <label for="operacao">Operação:</label>
+                <input
+                    type="text"
+                    id="operacao"
+                    placeholder="+  |  -  |  x  |  /"
+                >
+
+            </div>
+
+            <button id="btncalcular">CALCULAR</button>
+
+        </main>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
